@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+	margin : 0 auto	;
+	font-family: 'Poppins', sans-serif;
+}
+/*
+----to check overflowing contents(if any) causing horizontal scrollbar-------------*/
+/**{
+    outline: 1px solid red;
+}*/
+
+/*--for navigation bar------*/
+.topnav {
+  text-align:left;
+  overflow: hidden;
+  background-color: black;
+  box-shadow: 0px 10px 25px lightgrey;
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+  z-index: 9999999;
+}
+
+/* ----------- for eduspaark logo */
+.topnav img {
+  position: relative;
+  width:155px; 
+  height:44.205px; 
+  left:30px;
+}
+/*-------------- for links in nav bar -------------------------------------------------------------*/
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.3vw;
+}
+
+/*--------------- for effects on hover on links in navbar----------------------------------------- */
+.topnav a:hover {
+  color: yellow;
+  text-decoration: underline;
+  text-decoration-thickness: 0.145em;
+  text-underline-offset: 5px;
+
+}
+
+/*--------------- for active link in navbar------------------------------------------------------- */
+.topnav a.active {
+color: orange;
+}
+/*------for about us header section--------*/
+.aboutus-head {
+	height: 30vw;
+	background-color: #FFFAE3;
+	display: flex;
+	padding-top: 3vw;
+	padding-bottom: 0.5vw;
+	
+}
+.aboutus-head div{
+	width:50%;
+	flex: left;
+	text-align: middle;
+	padding-left: 10vw;
+	padding-top: 10vw;
+}
+.aboutus-head h1{
+	margin: 0px;
+	font-size: 5vw;
+	font-weight: 400;
+}
+.aboutus-head h2{
+	color:#F2B500;
+	margin: 0px;
+
+	font-weight: normal;
+	text-align: middle;
+}
+.aboutus-head img{
+	float: right;
+	width: 30vw;
+	height: auto;
+}
+/*-------for about eduspaark div-----*/
+
+.aboutedu {
+	display: inline-flex;
+	box-sizing: border-box;
+	top:0px;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 4%;
+	padding-bottom: 5%;
+
+}
+.lefttext {
+	box-sizing: content-box;
+	content: wrap;
+	/*padding-top: 4vw;
+	padding-left: 6vw;
+	padding-right: 10vw;*/
+}
+.lefttext h2{
+	color: #F2B500;
+	font-weight: normal;
+}
+.lefttext h1{
+	margin-top:-10px;
+	font-size: 3vw;
+	font-weight: 500;
+}
+.lefttext p{
+	font-size: 1.5vw;
+	/*line-height: 1.8vw;*/
+}
+.lefttext span{
+	color: grey;
+	font-weight:bold;
+}
+.eduimg img{
+	width:30vw;
+	height:auto;	
+	padding-right:auto;
+	padding-top:16vw;
+	padding-left:10vw;
+}
+/*------for timeline---------*/
+.timeline-head h2{
+	text-align: center;
+	color: #F2B500;
+}
+
+.timeline-head h1{
+	text-align: center;
+	font-weight: 600;
+}
+
+.timeline{
+	border-left: 8px solid orange; 
+	margin-left: 50%;
+	padding-top: 4%;
+	padding-bottom: 7%;
+}
+.timeline li {
+	list-style-type: none;
+	position: relative;
+	left:-100%;
+}
+.tabletm {
+    border-collapse: collapse;
+}
+.tabletm img {
+	width: 1.4vw;	
+}
+.T1{
+	padding-left:7vw;
+	color: blue;
+}
+.eventcontainer{
+	box-shadow: 10px 15px 35px lightgrey, -10px -15px 35px lightgrey;
+	width: 30vw;
+	font-size: 1.3vw;	
+	padding: 20px;
+	border-radius: 15px;	
+}
+.timeline::before {
+	content: "";
+	display: block;
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	border:8px solid orange;
+	border-radius: 50%;
+	position: relative;
+	top: 15vw;
+	right: 62px;
+}
+.quest {
+	margin: auto;
+	display: table;
+	text-align: center;
+	border:5px solid orange;
+	border-radius: 10px;
+	padding: 0.5vw;
+	padding-left: 1.5vw;
+	padding-right: 1.5vw;
+}
+/*-----------for our team ---------------*/
+.teamcontainer {
+	padding-left: 9vw;
+	padding-right: 10vw ;
+	bottom: 30%;
+	font-size: 1.5vw;
+}
+.teamcontainer h1 {
+	font-size: 2.5vw;
+	font-weight: 500;
+}
+.ourteam {
+	display: flex;
+	padding-bottom: 40px;
+}
+.ourteamimg img{
+	padding-top: 1.5vw;
+	float: left;
+	width: 25vw;
+	height: auto;
+}
+.ourteamtext {
+	float: right;
+	display: block;
+	padding-left: 4%;
+}
+.ourteamtext h2,h3{
+	font-weight: 500;
+}
+.socialceo img{
+	padding: 3px;
+	border: 1px solid grey;
+	border-radius: 5px;
+	width: 2vw;
+	height: auto;
+}
+/*--------for our members--------------*/
+.coremembers{
+	display: flex;
+}
+.dp {
+	position: relative;
+	float: left;
+	width: 20vw;
+	padding: 3vw;
+	align-content: center;
+}
+.dp img{
+	opacity: 1;
+    display: block;
+	width: 100%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+.ontop{
+	transition: .5s ease;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+.ontoptext {
+	background-color: black;
+    color: white;
+    font-size: 1vw;
+    padding: 3vw 4vw;
+}
+.ontoptext h2{
+	font-weight: normal;
+}
+.dp:hover img{
+	opacity: 1;
+}
+.dp:hover .ontop{
+	opacity: 0.6;
+}
+/*------for footer-----------------------*/
+
+.footer {
+  background-color: black;
+  color: white;
+  object-position: center;
+  text-align:center;
+  padding-top:3vw;
+  padding-bottom:5vw;
+}
+
+.footer h1{
+  font-weight: normal;
+}
+.footsearch input{
+  width: 35%;
+  height: 30px;
+  font-size: 1.5vw;
+  border-radius: 8px 0px 0px 8px;
+  border-color: transparent;
+  outline: none;
+}
+
+.footsearch button{
+  background-color:#FFC600; 
+  width: 8%;
+  height: 36px;
+  font-size:1vw;
+  position: relative;
+  left:-4.2px;
+  top:-3.0px;
+  border-radius: 0px 8px 8px 0px;
+  border-color: transparent;
+}
+.footsearch {
+  padding-bottom: 2vw;
+}
+.footinfo{
+  display:flex;
+}
+
+.footlogo img{ 
+  padding-top: 3vw;
+  padding-left:28vw;
+  padding-right:2vw;   
+  width: 20vw;
+  height: auto;
+}
+.foottext img{
+  width:35px;
+  height: 35px;
+}
+
+.foot {
+  text-align: left;
+  padding:20px;
+}
+.foot tr, td{
+  padding-bottom:10px;
+}
+.foot img{
+  width: 25px;
+  height: 25px;
+  align-content: left;
+  /*vertical-align: top;*/
+}
+.socials{
+  position: relative;
+  right:7.2vw;
+}
+.socials img{
+  padding: 6px;
+}
+
+.data{
+  padding-bottom: 13px;
+  padding-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

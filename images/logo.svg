@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="457" height="142.034" viewBox="0 0 457 142.034">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2" data-name="Rectangle 2" width="141.032" height="94.876" transform="translate(13 0)" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="238.472" height="97.44" transform="translate(0 0)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="logo" transform="translate(-1135 -1046.966)">
+    <g id="logo-2" data-name="logo" transform="translate(983.29 663.406)">
+      <g id="edu_mask" data-name="edu mask" transform="translate(138.71 411.059)" clip-path="url(#clip-path)">
+        <text id="edu" transform="translate(29.257 64.436)" font-size="64" font-family="Poppins-BoldItalic, Poppins" font-weight="700" font-style="italic"><tspan x="0" y="0">Edu</tspan></text>
+      </g>
+      <g id="paark_mask" data-name="paark mask" transform="translate(346.411 411.059)" clip-path="url(#clip-path-2)">
+        <text id="paark" transform="translate(2 64.436)" font-size="64" font-family="Poppins-BoldItalic, Poppins" font-weight="700" font-style="italic"><tspan x="0" y="0">paark</tspan></text>
+      </g>
+      <path id="Path_1" data-name="Path 1" d="M90.211,0,18.89,43.563l29.3,30.456L0,117.968,77.1,74.019,47.8,44.573,90.211,0" transform="translate(272.241 386.708) rotate(-2)" fill="#ffdf00"/>
+    </g>
+    <text id="shaping_careers" data-name="shaping careers" transform="translate(1379 1180)" font-size="25" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Shaping Careers</tspan></text>
+  </g>
+</svg>
